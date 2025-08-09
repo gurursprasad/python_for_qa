@@ -67,9 +67,26 @@ A virtual environment keeps your project dependencies isolated.
 
 ---
 
-## 3. Install Dependencies
 
-If you have a `requirements.txt` file, install all dependencies with:
+## 3. About pip & Installing Dependencies
+
+`pip` is Python's package installer. It allows you to install and manage additional libraries and dependencies that are not part of the Python standard library.
+
+- To check if pip is installed:
+  ```bash
+  pip --version
+  ```
+  or (on some systems):
+  ```bash
+  python3 -m pip --version
+  ```
+
+- To install a single package:
+  ```bash
+  pip install package_name
+  ```
+
+If you have a `requirements.txt` file, you can install all dependencies listed in it with:
 
 ```bash
 pip install -r requirements.txt
