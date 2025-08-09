@@ -1,5 +1,5 @@
 
-# Basics for QA
+# Language Fundamentals
 
 This section introduces the essential Python concepts every QA professional should know. Understanding these basics will help you write clear, effective scripts and prepare for automation tasks and interviews.
 
