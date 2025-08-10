@@ -18,29 +18,33 @@ num_int = 10
 num_float = 10.5
 num_complex = 3 + 4j
 
+print(type(num_int))
+print(type(num_float))
+print(type(num_complex))
+
 # Boolean Type
 is_valid = True
 
+print(type(is_valid))
+
 # String Type
 message = "Hello, Python!"
+
+print(type(message))
 
 # Sequence Types
 numbers_list = [1, 2, 3]
 numbers_tuple = (1, 2, 3)
 
+print(type(numbers_list))
+print(type(numbers_tuple))
+
 # Set Type
 unique_numbers = {1, 2, 3}
+
+print(type(unique_numbers))
 
 # Mapping Type
 data_dict = {"name": "Alice", "age": 30}
 
-# Display types for demonstration
-print(type(num_int))
-print(type(num_float))
-print(type(num_complex))
-print(type(is_valid))
-print(type(message))
-print(type(numbers_list))
-print(type(numbers_tuple))
-print(type(unique_numbers))
 print(type(data_dict))
